@@ -1,0 +1,16 @@
+A Java program that reads an image file of a maze and traces the solution.
+
+To run the program, convert content of the folder to a runnable JAR file.
+Then, run the JAR with a suitable maze image in the same directory as the JAR.
+The JAR creates a new image file of the solved maze in the same directory as the JAR.
+
+$ java -jar mazeRunner-1.0.jar maze1.png
+
+Requirements for images:
+cell size = 14px x 14px
+line width = 2px
+entrance is on the top
+exit is on the bottom
+
+The most challenging part for developer was reading, writing and modifying image. Also some difficulties occurred while
+creating class that will characterize one cell of a maze and how a movement will be implemented.
