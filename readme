@@ -14,3 +14,5 @@ exit is on the bottom
 
 The most challenging part for developer was reading, writing and modifying image. Also some difficulties occurred while
 creating class that will characterize one cell of a maze and how a movement will be implemented.
+
+The aim was not to use any additional libraries to solve the maze.
